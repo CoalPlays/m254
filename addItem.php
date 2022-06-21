@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['serialNumber'])) {
         $serialNumber = htmlspecialchars(trim($_POST['serialNumber']));
 
-        if (empty($serialNumber) || strlen($serialNumber) > 9999999999999999999999999) {
+        if (empty($serialNumber) || strlen($serialNumber) > 9999999999999999999999999 || !is_numeric($serialNumber)) {
             $error .= "Invalid serialnumber. ";
         }
     } else {
