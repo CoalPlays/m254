@@ -41,7 +41,7 @@ include('include/dbconnector.inc.php');
         <div class="row py-lg-5 mx-auto">
             <div class="col-lg-6 col-md-8 mx-auto">
                 <h1>Inventur</h1>
-                <p style="margin-bottom: 400px;" class="lead text">Alles auf einem Blick</p>';
+                <p style="margin-bottom: 400px;" class="lead text">Alles auf einem Blick</p>
             </div>
         </div>
     </div>
